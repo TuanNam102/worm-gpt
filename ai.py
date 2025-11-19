@@ -44,8 +44,8 @@ class colors:
 CONFIG_FILE = "wormgpt_config.json"
 PROMPT_FILE = "system-prompt.txt"  # 🧩 Local system prompt file
 DEFAULT_API_KEY = ""
-DEFAULT_BASE_URL = "https://openrouter.ai/api/v1"
-DEFAULT_MODEL = "deepseek/deepseek-chat-v3-0324:free"
+DEFAULT_BASE_URL = "https://api.yescale.io/v1"
+DEFAULT_MODEL = "deepseek-v3-0324"
 SITE_URL = "https://github.com/00x0kafyy/worm-ai"
 SITE_NAME = "WormGPT CLI"
 SUPPORTED_LANGUAGES = ["English", "Indonesian", "Spanish", "Arabic", "Thai", "Portuguese"]
@@ -75,7 +75,7 @@ def banner():
     except:
         print(f"{colors.bright_red}WormGPT{colors.reset}")
     print(f"{colors.bright_red}WormGPT CLI{colors.reset}")
-    print(f"{colors.bright_cyan}OpenRouter API | {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}{colors.reset}")
+    print(f"{colors.bright_cyan}YEScale API | {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}{colors.reset}")
     print(f"{colors.bright_cyan}Made With Love <3 {colors.bright_red}t.me/xsocietyforums {colors.reset}- {colors.bright_red}t.me/astraeoul\n")
 
 def clear_screen():

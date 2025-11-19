@@ -56,7 +56,7 @@ Or manually edit the config file:
 ## 🧠 Usage Example
 
 ```
-python3 wormgpt.py
+python3 ai.py
 ```
 
 ## Menu will appear:
