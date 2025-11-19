@@ -1,5 +1,5 @@
 {
-  "api_key": "sk-Dldqh2lYqpnPqTwbHl8QnoUwCr5qA4fAAAoaYlAp2VSvalsy",
+  "api_key": "",
   "base_url": "https://api.yescale.io/v1",
   "model": "deepseek-v3-0324",
   "language": "English"
